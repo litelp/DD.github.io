@@ -1,0 +1,149 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #E5E5E5;
+	font-family: Roboto, sans-serif;
+	margin: 20px 20px;
+	display: inline-block;
+
+	font-style: normal;
+	font-weight: normal;
+}
+
+p {
+	margin: 0;
+	padding: 20px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 37px;
+	border-bottom: 1px solid #C4C4C4;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	background: #9C9C9C;
+	width: 400px;
+	height: 448px;
+	border: 2px solid #626262;
+	box-sizing: border-box;
+	border-radius: 3px;	
+}
+
+.group {
+	padding: 0 20px 30px 20px;
+}
+
+label {
+	display: block;
+	width: 360px;
+	font-size: 14px;
+	line-height: 16px;
+	color: #3A3A3A;
+	margin: 20px 0 0 0;
+}
+
+input {
+	position: absolute;
+	display: block;
+	width: 360px;
+	height: 28px;
+
+	background: #FFFFFF;
+	border: 1px solid #9C9C9C;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+.group input {	
+	padding: 5px 8px;
+	font-size: 14px;
+	line-height: 16px;	
+}
+
+::-webkit-input-placeholder { 
+	color: #CCCCCC;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+}
+::-moz-placeholder { 
+	color: #CCCCCC; 
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+}
+:-ms-input-placeholder { 
+	color: #CCCCCC; 
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	line-height: 16px;	 
+}
+:-moz-placeholder { 
+	color: #CCCCCC; 
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	line-height: 16px;	
+}
+
+.btn {
+	border-top: 1px solid #C4C4C4;
+	padding: 20px 0 0 20px;
+	margin-top: 20px;
+}
+
+button {
+	border: 1px solid #616161;
+	box-sizing: border-box;
+	border-radius: 3px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.send {
+	margin: 0 180px 0 0;
+	width: 95px;
+	height: 32px;
+	background: #616161;
+	color: #CCCCCC;
+	border: 1px solid #616161;
+}
+
+.cancel {
+	margin: 0 20px 0 0;
+	width: 74px;
+	height: 32px;
+	background: #CCCCCC;
+	color: #616161;
+	border: 1px solid #CCCCCC;
+}
+
+.data {
+	display: inline-block;
+	width: 175px;
+}
+
+.data input {
+	width: 175px;
+}
+
+:focus::placeholder {
+	color: transparent;
+}
+
+button:hover {
+	color: #fff;
+}
+
+button:active {
+	background-color: #e1e1e1;
+	border: 1px solid #e1e1e1;
+}
+
+
+
+
+
